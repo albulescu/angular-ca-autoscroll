@@ -121,13 +121,11 @@ angular.module('ca.directive.autoscroll',[])
 
                         if( promise ) {
                             $q.when(promise).then(function(){
-                                $log.info('Auto scroll to down');
                                 container.scrollTop = container.scrollHeight;
                             });
                         }
 
                         if(!event.isDefaultPrevented()) {
-                            $log.info('Auto scroll to down');
                             container.scrollTop = container.scrollHeight;
                         }
                     });
