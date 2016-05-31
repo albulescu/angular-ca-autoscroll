@@ -2,7 +2,7 @@
   "name": "angular-ca-autoscroll",
   "version": "1.0.0",
   "description": "",
-  "main": "Gruntfile.js",
+  "main": "ca-autoscroll.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
